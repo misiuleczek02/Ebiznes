@@ -1,5 +1,5 @@
 # Ebiznes
-zadania na zajęcia z ebiznesu 2026
+Zadania na zajęcia z ebiznesu 2026
 Oliwia Majewska
 
 # Zadanie 1 Docker
