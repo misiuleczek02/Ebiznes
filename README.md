@@ -29,7 +29,5 @@ link do obrazu na docker hub: https://hub.docker.com/repository/docker/misiulecz
 aby uruchomić aplikację:
 
    docker build -t scala-sklep-api .
-   
-   ./start.sh
 
-link do obrazu na docker hub: 
+   ./start.sh
