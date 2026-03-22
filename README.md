@@ -14,3 +14,20 @@ Oliwia Majewska
 ✅ 5. - dodać konfigurację docker-compose
 
 link do obrazu na docker hub: https://hub.docker.com/repository/docker/misiuleczek02/zadanie-docker/general
+
+# Zadanie 2 Scala
+✅ 1. - Należy stworzyć kontroler do Produktów
+
+✅ 2. - Do kontrolera należy stworzyć endpointy zgodnie z CRUD - dane pobierane z listy
+
+✅ 3. - Należy stworzyć kontrolery do Kategorii oraz Koszyka + endpointy zgodnie z CRUD
+
+✅ 4. - Należy aplikację uruchomić na dockerze (stworzyć obraz) oraz dodać skrypt uruchamiający aplikację via ngrok
+
+✅ 5. - Należy dodać konfigurację CORS dla dwóch hostów dla metod CRUD
+
+aby uruchomić aplikację:
+   docker build -t scala-sklep-api .
+   ./start.sh
+
+link do obrazu na docker hub: 
