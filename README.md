@@ -27,7 +27,9 @@ link do obrazu na docker hub: https://hub.docker.com/repository/docker/misiulecz
 ✅ 5. - Należy dodać konfigurację CORS dla dwóch hostów dla metod CRUD
 
 aby uruchomić aplikację:
+
    docker build -t scala-sklep-api .
+   
    ./start.sh
 
 link do obrazu na docker hub: 
