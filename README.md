@@ -31,3 +31,14 @@ aby uruchomić aplikację:
    docker build -t scala-sklep-api .
 
    ./start.sh
+
+# Zadanie 3 Kotlin
+✅ 1. -  Należy stworzyć aplikację kliencką w Kotlinie we frameworku Ktor, która pozwala na przesyłanie wiadomości na platformę Discord
+
+✅ 2. -  Aplikacja jest w stanie odbierać wiadomości użytkowników z platformy Discord skierowane do aplikacji (bota)
+
+✅ 3. -  Zwróci listę kategorii na określone żądanie użytkownika
+
+✅ 4. -  Zwróci listę produktów wg żądanej kategorii
+
+✅ 5. -  Aplikacja obsłuży dodatkowo jedną z platform: Slack lub Messenger
