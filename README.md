@@ -54,3 +54,15 @@ aby uruchomić aplikację:
 ✅ 4. - Należy stworzyć model kategorii i dodać relację między kategorią, a produktem
 
 ✅ 5. - pogrupować zapytania w gorm’owe scope'y
+
+# Zadanie 5 Frontend
+
+✅ 1. - W ramach projektu należy stworzyć dwa komponenty: Produkty oraz Płatności; Płatności powinny wysyłać do aplikacji serwerowej dane, a w Produktach powinniśmy pobierać dane o produktach z aplikacji serwerowej;
+
+✅ 2. - Należy dodać Koszyk wraz z widokiem; należy wykorzystać routing
+
+✅ 3. -  Dane pomiędzy wszystkimi komponentami powinny być przesyłane za pomocą React hooks
+
+✅ 4. - Należy dodać skrypt uruchamiający aplikację serwerową oraz kliencką na dockerze via docker-compose
+
+✅ 5. -  Należy wykorzystać axios’a oraz dodać nagłówki pod CORS
