@@ -42,3 +42,15 @@ aby uruchomić aplikację:
 ✅ 4. -  Zwróci listę produktów wg żądanej kategorii
 
 ✅ 5. -  Aplikacja obsłuży dodatkowo jedną z platform: Slack lub Messenger
+
+# Zadanie 4 Go
+
+✅ 1. - Należy stworzyć aplikację we frameworki echo w j. Go, która będzie miała kontroler Produktów zgodny z CRUD
+
+✅ 2. - Należy stworzyć model Produktów wykorzystując gorm oraz wykorzystać model do obsługi produktów (CRUD) w kontrolerze (zamiast listy)
+
+✅ 3. - Należy dodać model Koszyka oraz dodać odpowiedni endpoint
+
+✅ 4. - Należy stworzyć model kategorii i dodać relację między kategorią, a produktem
+
+✅ 5. - pogrupować zapytania w gorm’owe scope'y
