@@ -1,0 +1,19 @@
+{
+  "name": "zadanie-6-cypress",
+  "version": "1.0.0",
+  "description": "Cypress test suite for Zadanie 6 with BrowserStack integration.",
+  "private": true,
+  "scripts": {
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run",
+    "bs:run": "npx browserstack-cypress run --sync",
+    "test": "mocha utils.test.js",
+    "test:watch": "mocha --watch utils.test.js"
+  },
+  "devDependencies": {
+    "browserstack-cypress-cli": "^1.6.0",
+    "cypress": "^12.17.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}

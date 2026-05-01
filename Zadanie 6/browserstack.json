@@ -1,0 +1,21 @@
+{
+  "auth": {
+    "username": "YOUR_BROWSERSTACK_USERNAME",
+    "access_key": "YOUR_BROWSERSTACK_ACCESS_KEY"
+  },
+  "browsers": [
+    {
+      "browser": "chrome",
+      "browser_version": "latest",
+      "os": "Windows",
+      "os_version": "11"
+    }
+  ],
+  "run_settings": {
+    "cypress_config_file": "cypress.config.js",
+    "specs": ["cypress/e2e/demo.spec.cy.js"],
+    "local": false,
+    "project_name": "Zadanie 6 Cypress",
+    "build_name": "BrowserStack Demo Build"
+  }
+}
