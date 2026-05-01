@@ -66,3 +66,15 @@ aby uruchomić aplikację:
 ✅ 4. - Należy dodać skrypt uruchamiający aplikację serwerową oraz kliencką na dockerze via docker-compose
 
 ✅ 5. -  Należy wykorzystać axios’a oraz dodać nagłówki pod CORS
+
+# Zadanie 6 Testy
+
+✅ 1. -  Należy stworzyć 20 przypadków testowych w CypressJS lub Selenium (Kotlin, Python, Java, JS, Go, Scala)
+
+✅ 2. -  Należy rozszerzyć testy funkcjonalne, aby zawierały minimum 50 asercji
+
+✅ 3. Należy stworzyć testy jednostkowe do wybranego wcześniejszego projektu z minimum 50 asercjami
+
+✅ 4. Należy dodać testy API, należy pokryć wszystkie endpointy z minimum jednym scenariuszem negatywnym per endpoint
+
+✅ 5. Należy uruchomić testy funkcjonalne na Browserstacku
