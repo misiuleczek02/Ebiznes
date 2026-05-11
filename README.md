@@ -78,3 +78,19 @@ aby uruchomić aplikację:
 ✅ 4. Należy dodać testy API, należy pokryć wszystkie endpointy z minimum jednym scenariuszem negatywnym per endpoint
 
 ✅ 5. Należy uruchomić testy funkcjonalne na Browserstacku
+
+# Zadanie 7 
+
+Repozytoria zadanie7-client i zadanie7-server
+
+# Zadanie 8 Klient Oauth2
+
+✅ 1. - logowanie przez aplikację serwerową (bez Oauth2)
+
+✅ 2. - rejestracja przez aplikację serwerową (bez Oauth2)
+
+✅ 3. - logowanie via Google OAuth2
+
+✅ 4. -  logowanie via Facebook lub Github OAuth2
+
+✅ 5. -  zapisywanie danych logowania OAuth2 po stronie serwera
