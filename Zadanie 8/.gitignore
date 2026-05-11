@@ -1,0 +1,7 @@
+server/.env
+server/auth.db
+server/server
+client/node_modules
+client/build
+*.log
+.DS_Store
