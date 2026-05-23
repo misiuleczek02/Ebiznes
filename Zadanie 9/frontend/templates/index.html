@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sklep Odziezowy - Chat</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Sklep Odziezowy - Asystent</h1>
+    <div class="actions">
+      <button id="end-btn" type="button" title="Zakoncz rozmowe">Zakoncz</button>
+      <button id="reset-btn" type="button" title="Nowa rozmowa">Nowa rozmowa</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="chat" class="chat" aria-live="polite"></div>
+
+    <form id="chat-form" autocomplete="off">
+      <input
+        id="user-input"
+        type="text"
+        placeholder="Zapytaj o ubrania, rozmiary, dostawe..."
+        required
+        autofocus
+      >
+      <button type="submit">Wyslij</button>
+    </form>
+
+    <p class="hint">
+      Bot odpowiada wylacznie na pytania o ubrania i sklep.
+      Pierwsza wiadomosc dostaje losowe powitanie, pozegnanie konczy sesje.
+    </p>
+  </main>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

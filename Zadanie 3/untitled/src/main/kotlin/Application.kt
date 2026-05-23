@@ -43,9 +43,22 @@ fun main() {
                     val text = event["text"]?.jsonPrimitive?.content ?: ""
                     val channel = event["channel"]?.jsonPrimitive?.content ?: ""
 
-                    val reply = ShopService.processCommand(text)
-                    if (reply != null) {
-                        sendSlackMessage(slackToken, channel, reply)
+                    val shopReply = ShopService.processCommand(text)
+                    if (shopReply != null) {
+                        sendSlackMessage(slackToken, channel, shopReply)
+                    } else if (text.isNotBlank()) {
+                        try {
+                            val gptResp = GptClient.chat(
+                                GptChatRequest(message = text, session_id = channel)
+                            )
+                            sendSlackMessage(slackToken, channel, gptResp.reply)
+                        } catch (e: Exception) {
+                            sendSlackMessage(
+                                slackToken,
+                                channel,
+                                "Nie udalo sie polaczyc z asystentem AI: ${e.message}",
+                            )
+                        }
                     }
                 }
                 call.respond(HttpStatusCode.OK)
