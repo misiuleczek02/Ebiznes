@@ -1,4 +1,3 @@
-"""Klient HTTP do lokalnego serwera Ollama."""
 from __future__ import annotations
 
 import os

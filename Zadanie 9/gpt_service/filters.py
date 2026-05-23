@@ -1,4 +1,3 @@
-"""Filtry: tematyczny (sklep odziezowy) oraz sentymentu odpowiedzi."""
 from __future__ import annotations
 
 SHOP_KEYWORDS = {

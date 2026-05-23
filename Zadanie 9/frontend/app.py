@@ -1,7 +1,3 @@
-"""Frontend chatu w Pythonie - Flask + JS.
-
-Serwuje pojedyncza strone HTML oraz proxy do gpt_service.
-"""
 from __future__ import annotations
 
 import os

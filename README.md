@@ -94,3 +94,15 @@ Repozytoria zadanie7-client i zadanie7-server
 ✅ 4. -  logowanie via Facebook lub Github OAuth2
 
 ✅ 5. -  zapisywanie danych logowania OAuth2 po stronie serwera
+
+# Zadanie 9 Rozszerzenie funkcjonalności bota o GPT
+
+✅ 1. - należy stworzyć po stronie serwerowej osobny serwis do łącznia z chatGPT
+
+✅ 2. - należy połączyć serwis z interfejsem frontendowym via serwis w Kotlinie (zadanie 3) - discord + JS
+
+✅ 3. - stworzyć listę 5 różnych otwarć oraz zamknięć rozmowy
+
+✅ 4. - filtrowanie po zagadnieniach związanych ze sklepem (np. ograniczenie się jedynie do ubrań oraz samego sklepu) do GPT
+
+✅ 5. - filtrowanie odpowiedzi po sentymencie
