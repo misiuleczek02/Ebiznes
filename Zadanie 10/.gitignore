@@ -1,0 +1,5 @@
+server/coverage.out
+server/server
+**/node_modules/
+client/build/
+.env

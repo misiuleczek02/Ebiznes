@@ -1,0 +1,30 @@
+services:
+  server:
+    build: ./server
+    image: zadanie10-server:local
+    container_name: zadanie10-server
+    ports:
+      - "8080:8080"
+    environment:
+      PORT: 8080
+      CLIENT_URL: "http://localhost:3000"
+    networks:
+      - shop
+
+  client:
+    build:
+      context: ./client
+      args:
+        REACT_APP_API_URL: "http://localhost:8080"
+    image: zadanie10-client:local
+    container_name: zadanie10-client
+    ports:
+      - "3000:80"
+    depends_on:
+      - server
+    networks:
+      - shop
+
+networks:
+  shop:
+    driver: bridge

@@ -106,3 +106,7 @@ Repozytoria zadanie7-client i zadanie7-server
 ✅ 4. - filtrowanie po zagadnieniach związanych ze sklepem (np. ograniczenie się jedynie do ubrań oraz samego sklepu) do GPT
 
 ✅ 5. - filtrowanie odpowiedzi po sentymencie
+
+# Zadanie 10
+
+✅ 3.0 - Należy stworzyć odpowiednie instancje po stronie chmury na dockerze
