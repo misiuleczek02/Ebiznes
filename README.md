@@ -115,6 +115,8 @@ Repozytoria zadanie7-client i zadanie7-server
 
 ✅ 5. - filtrowanie odpowiedzi po sentymencie
 
+[commit 9](https://github.com/misiuleczek02/Ebiznes/commit/df591a88db3fbedf78923037a13508b9976f9884)
+
 # Zadanie 10
 
-✅ 3.0 - Należy stworzyć odpowiednie instancje po stronie chmury na dockerze
+✅ 1. - Należy stworzyć odpowiednie instancje po stronie chmury na dockerze
