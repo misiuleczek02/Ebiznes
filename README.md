@@ -120,3 +120,5 @@ Repozytoria zadanie7-client i zadanie7-server
 # Zadanie 10
 
 ✅ 1. - Należy stworzyć odpowiednie instancje po stronie chmury na dockerze
+
+[commit 10](https://github.com/misiuleczek02/Ebiznes/commit/c4fc65c08d7394c74d2df2366fa1acea9263dc14)
