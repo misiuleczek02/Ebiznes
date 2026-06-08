@@ -55,6 +55,8 @@ link do obrazu na docker hub: https://hub.docker.com/repository/docker/misiulecz
 
 ✅ 5. - pogrupować zapytania w gorm’owe scope'y
 
+[commit 4](https://github.com/misiuleczek02/Ebiznes/commit/c8065c384d519c0087c8196657a10aa44ab2f5f1)
+
 # Zadanie 5 Frontend
 
 ✅ 1. - W ramach projektu należy stworzyć dwa komponenty: Produkty oraz Płatności; Płatności powinny wysyłać do aplikacji serwerowej dane, a w Produktach powinniśmy pobierać dane o produktach z aplikacji serwerowej;
