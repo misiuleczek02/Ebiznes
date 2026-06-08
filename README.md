@@ -87,7 +87,7 @@ link do obrazu na docker hub: https://hub.docker.com/repository/docker/misiulecz
 
 # Zadanie 7 
 
-Repozytoria zadanie7-client i zadanie7-server
+Repozytoria [zadanie7-client](https://github.com/misiuleczek02/zadanie7-client) i [zadanie7-server](https://github.com/misiuleczek02/zadanie7-server)
 
 # Zadanie 8 Klient Oauth2
 
