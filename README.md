@@ -83,6 +83,8 @@ link do obrazu na docker hub: https://hub.docker.com/repository/docker/misiulecz
 
 ✅ 5. Należy uruchomić testy funkcjonalne na Browserstacku
 
+[commit 6](https://github.com/misiuleczek02/Ebiznes/commit/49973bfa590ef6b01f1e4101554e3dd724b71a94)
+
 # Zadanie 7 
 
 Repozytoria zadanie7-client i zadanie7-server
