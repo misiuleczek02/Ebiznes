@@ -41,6 +41,8 @@ link do obrazu na docker hub: https://hub.docker.com/repository/docker/misiulecz
 
 ✅ 5. -  Aplikacja obsłuży dodatkowo jedną z platform: Slack lub Messenger
 
+[commit 3](https://github.com/misiuleczek02/Ebiznes/commit/2f3f5b976d29b1853eb36f4fa8768a5a33c0a766)
+
 # Zadanie 4 Go
 
 ✅ 1. - Należy stworzyć aplikację we frameworki echo w j. Go, która będzie miała kontroler Produktów zgodny z CRUD
