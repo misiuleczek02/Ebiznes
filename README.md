@@ -15,6 +15,8 @@ Oliwia Majewska
 
 link do obrazu na docker hub: https://hub.docker.com/repository/docker/misiuleczek02/zadanie-docker/general
 
+[commit 1](https://github.com/misiuleczek02/Ebiznes/commit/a264077fedf98d668c2b60d1067513b4297b6321)
+
 # Zadanie 2 Scala
 ✅ 1. - Należy stworzyć kontroler do Produktów
 
