@@ -28,11 +28,7 @@ link do obrazu na docker hub: https://hub.docker.com/repository/docker/misiulecz
 
 ✅ 5. - Należy dodać konfigurację CORS dla dwóch hostów dla metod CRUD
 
-aby uruchomić aplikację:
-
-   docker build -t scala-sklep-api .
-
-   ./start.sh
+[commit 2](https://github.com/misiuleczek02/Ebiznes/commit/de0fbbdbadacbadfe805690b0b602a28544347b8)
 
 # Zadanie 3 Kotlin
 ✅ 1. -  Należy stworzyć aplikację kliencką w Kotlinie we frameworku Ktor, która pozwala na przesyłanie wiadomości na platformę Discord
