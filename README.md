@@ -69,6 +69,8 @@ link do obrazu na docker hub: https://hub.docker.com/repository/docker/misiulecz
 
 ✅ 5. -  Należy wykorzystać axios’a oraz dodać nagłówki pod CORS
 
+[commit 5](https://github.com/misiuleczek02/Ebiznes/commit/fc3dec7abbfe02c8fd3c6af2842f4e3857922eca)
+
 # Zadanie 6 Testy
 
 ✅ 1. -  Należy stworzyć 20 przypadków testowych w CypressJS lub Selenium (Kotlin, Python, Java, JS, Go, Scala)
