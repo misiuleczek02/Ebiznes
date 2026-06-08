@@ -101,6 +101,8 @@ Repozytoria zadanie7-client i zadanie7-server
 
 ✅ 5. -  zapisywanie danych logowania OAuth2 po stronie serwera
 
+[commit 8](https://github.com/misiuleczek02/Ebiznes/commit/c849e8a7849cb39af817d0e2070c2c1969457657)
+
 # Zadanie 9 Rozszerzenie funkcjonalności bota o GPT
 
 ✅ 1. - należy stworzyć po stronie serwerowej osobny serwis do łącznia z chatGPT
